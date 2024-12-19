@@ -7,4 +7,4 @@ statsmodels
 scikit-learn
 gseapy
 biopython
-
+tensorflow
