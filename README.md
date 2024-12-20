@@ -37,7 +37,6 @@ This project focuses on identifying biomarkers for breast cancer by performing d
 ```
 .
 ├── data/
-│   ├── processed_expression_data.csv       # Preprocessed expression data
 │   ├── updated_metadata_with_group.csv     # Metadata with sample labels
 │   ├── differential_expression_results.csv # Results of DEG analysis
 │   ├── top_10_upregulated_genes.csv        # Top 10 upregulated genes
@@ -45,13 +44,14 @@ This project focuses on identifying biomarkers for breast cancer by performing d
 ├── models/
 │   └── cancer_classifier.h5                # Trained TensorFlow model
 ├── scripts/
-│   ├── preprocess_data.py                  # Data preprocessing script
-│   ├── train_model.py                      # Model training script
-│   ├── test_model.py                       # Model evaluation script
-│   ├── create_visualizations.py            # Visualization scripts
+│   ├── data_preprocessing.py               # Data preprocessing script
+│   ├── differential_expression_results.py  # DGE analysis script
+│   ├── ml_training2.py                     # Model training script
+│   ├── test_ml.py                          # Model evaluation script
+│   ├── heatmap.py and volancoplots.py      # Visualization scripts
 ├── outputs/
-│   ├── heatmap.png                         # Heatmap of top genes
-│   ├── volcano_plot.png                    # Volcano plot of DEG results
+│   ├── most_variable_genes_heatmap.png     # Heatmap of top genes
+│   ├── volcanoplot_DGEanalysis.png         # Volcano plot of DEG results
 │   ├── model_test_results.csv              # Predictions on test set
 └── README.md                               # Project README
 ```
