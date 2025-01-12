@@ -2,8 +2,6 @@
 
 
 
-under construction:
-
 
 This project focuses on identifying biomarkers for breast cancer by performing differential gene expression (DGE) analysis and functional enrichment using DAVID (Database for Annotation, Visualization, and Integrated Discovery). Additionally, a machine learning (ML) component was incorporated as an added feature to classify cancerous vs. normal samples using gene expression profiles.
 
