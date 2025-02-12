@@ -60,6 +60,13 @@ This project focuses on identifying biomarkers for breast cancer by performing d
 - Highlighted key pathways like Glucagon Signaling and Estrogen Signaling involved in cancer progression.
 - Achieved classification accuracies ranging from 87.21% to 89.53% using the ML model.
 
+## Heatmap of Top 50 Variable Genes
+![](outputs/most_variable_genes_heatmap.png)
+
+## Volcano Plot of Differential Gene Expression
+![](outputs/volcanoplot_DGEanalysis.png)
+
+
 ## Future Work
 - Validate identified biomarkers experimentally to confirm clinical relevance.
 - Explore more advanced ML models for improved classification.
